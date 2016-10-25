@@ -1,0 +1,19 @@
+{
+    _id: 1234,
+    author: { name: "Bob Davis", email : "bob@bob.com" },
+    post: "In these troubled times I like to …",
+    date: { $date: "2010-07-12 13:23UTC" },
+    location: [ -121.2322, 42.1223222 ],
+    rating: 2.2,
+    comments: [
+       { user: "jgs32@hotmail.com",
+         upVotes: 22,
+         downVotes: 14,
+         text: "Great point! I agree" },
+       { user: "holly.davidson@gmail.com",
+         upVotes: 421,
+         downVotes: 22,
+         text: "You are a moron" }
+    ],
+    tags: [ "Politics", "Virginia" ]
+ }
